@@ -26,26 +26,24 @@ Este projeto é um crawler em Python que coleta números de telefone de anúncio
    ```
 3. Instale as dependências:
    ```bash
-   pip install requests beautifulsoup4
+   pip install -r requeriments.txt
    ```
 
 ## Como usar
 
 1. Execute o script principal:
    ```bash
-   python consultatel.py
+   python crawler.py
    ```
 2. Os números de telefone extraídos serão salvos no arquivo `telefones.csv` no formato:
    ```
-   DDD,Prefixo,Sufixo
-   11,91234,5678
-   21,98765,4321
+   11912345678
+   21987654321
    ```
 
 ## Estrutura dos arquivos principais
 
-- `consultatel.py`: Script principal do crawler.
-- `crowler.py`: Funções auxiliares, como salvar telefones em CSV.
+- `crawler.py`: Script principal do crawler.
 - `telefones.csv`: Arquivo gerado com os telefones extraídos.
 
 ## Observações
