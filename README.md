@@ -1,4 +1,4 @@
-# Crawler de Telefones de Anúncios de Automóveis
+# Crawler de Telefones em um Site de Anuncios
 
 Este projeto é um crawler em Python que coleta números de telefone de anúncios de automóveis do site [django-anuncios.solyd.com.br](https://django-anuncios.solyd.com.br) e exporta os dados em um arquivo CSV organizado.
 
